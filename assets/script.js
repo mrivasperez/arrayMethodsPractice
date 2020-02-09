@@ -57,13 +57,15 @@ function addData(obj) {
     updateDOM();
 }
 
-// CALCULATE TOTAL WEALTH
+/* CALCULATE TOTAL WEALTH 
+The reduce method goes over every element and collects some information about each element, and then finally returns the collective result.
+*/
 function calculateTotal(){
     const wealth = data.reduce((acc, user) => (acc += user.money),0);
     const wealthEl = document.createElement('div');
     wealthEl.innerHTML = `<h3>Total Wealth: <strong>${formatMoney(wealth)}</strong></h3>`;
     main.appendChild(wealthEl);
-    
+
 }
 
 // --- DISPLAY USERS IN THE DOM ---
