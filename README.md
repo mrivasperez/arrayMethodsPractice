@@ -7,7 +7,7 @@ I was having a hard time remembering all of the DOM array methods (THERE ARE SO 
 Thanks to this project I now feel far more confident with array methods and async functions.
 
 ## Screenshot
-[!A screenshot](assets/screenshot.png)
+![A screenshot](assets/screenshot.png)
 
 ## Credits
 - https://randomuser.me/api Random User API for random names!
